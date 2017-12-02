@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1068017454158",
+    "firebase_url": "https://baresnotables-b3497.firebaseio.com",
+    "project_id": "baresnotables-b3497",
+    "storage_bucket": "baresnotables-b3497.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068017454158:android:35301430e28c0457",
+        "android_client_info": {
+          "package_name": "ar.com.androidappsdhj.baresnotablesba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068017454158-9k7dkep0u0k9128vs0s4m31gf2ipmpsi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ar.com.androidappsdhj.baresnotablesba",
+            "certificate_hash": "a83dca8ac016dc0c4bef63271b44518b7143db8f"
+          }
+        },
+        {
+          "client_id": "1068017454158-1k3r99impj5avoa78d5lgtfsjkhk8l8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc9YC4TtMEHDuVDv4G0wufvs76WoChMgc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068017454158-1k3r99impj5avoa78d5lgtfsjkhk8l8s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
