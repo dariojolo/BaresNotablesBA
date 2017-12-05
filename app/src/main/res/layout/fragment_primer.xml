@@ -1,31 +1,27 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/fondoGris"
     android:layout_height="match_parent"
     tools:context=".fragments.PrimerFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <!-- A RecyclerView with some commonly used attributes -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:scrollbars="vertical"
+        android:background="@color/fondoGris"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="PRIMER FRAGMENT" />
-
-    <TextView
-        android:id="@+id/textView"
+        android:layout_height="match_parent"/>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView1" />
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+    <!--ads:adSize="SMART_BANNER"
+    ads:adUnitId="@string/banner_ad_unit_id"-->
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView2" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView3" />
-
-</FrameLayout>
+</RelativeLayout>

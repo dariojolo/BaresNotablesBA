@@ -1,4 +1,4 @@
-package ar.com.androidappsdhj.baresnotablesba;
+package ar.com.androidappsdhj.baresnotablesba.activities;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
+import ar.com.androidappsdhj.baresnotablesba.R;
 import ar.com.androidappsdhj.baresnotablesba.fragments.PrimerFragment;
 import ar.com.androidappsdhj.baresnotablesba.fragments.SegundoFragment;
 
