@@ -1,11 +1,17 @@
 package ar.com.androidappsdhj.baresnotablesba.models;
 
+import io.realm.RealmObject;
+import io.realm.annotations.PrimaryKey;
+
 /**
  * Created by rodrigrl on 04/12/2017.
  */
 
-public class BarNotable {
+public class BarNotable extends RealmObject {
+
+    @PrimaryKey
     private int ID;
+
     private String nombre;
     private String direccion;
     private String barrio;
